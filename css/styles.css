@@ -1130,6 +1130,9 @@ ul li {
 #dropdown_list {
 	display: none;
 	clear: both;
+	background-color: black;
+	color: white;
+	overflow: hidden;
 }
 
 div.subscribe_box {
@@ -1139,10 +1142,12 @@ div.subscribe_box {
 h1.sharelearnrelate {
 	padding-top: 2.5em;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 h2.sharelearnrelate {
 	font-size: 1.2em;
+	text-align: center;
 }
 
 form.subscribe {
@@ -1152,7 +1157,7 @@ form.subscribe {
 
 input.subscribe {
 	margin-top: 3em;
-	width: 19em;
+	width: 13em;
 }
 
 .upvote_h3 {
