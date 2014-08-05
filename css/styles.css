@@ -1,0 +1,1199 @@
+
+@font-face { font-family: BrandonText-Regular; src: url('../font/BrandonText-Regular.otf'); }
+@font-face { font-family: BrandonText-Light; src: url('../font/BrandonText-Light.otf'); }
+@font-face { font-family: BrandonText-Medium; src: url('../font/BrandonText-Medium.otf'); }
+@font-face { font-family: BrandonText-MediumItalic; src: url('../font/BrandonText-MediumItalic.otf'); }
+@font-face { font-family: BrandonText-Bold; src: url('../font/BrandonText-Bold.otf'); }
+@font-face { font-family: BrandonText-Black; src: url('../font/BrandonText-Black.otf'); }
+@font-face { font-family: ACasolonPro-Regular; src: url('../font/ACasolonPro-Regular.otf'); }
+@font-face { font-family: ACasolonPro-Italic; src: url('../font/ACasolonPro-Italic.otf'); }
+
+.dropdown_nav {
+	display: none;
+}
+
+.main_nav {
+	width: 100%;
+	float: right;
+	position: absolute;
+	z-index: 9999;
+	margin-top: -6.5em;
+	padding-top: 1.1em;
+	padding-bottom: 2em;
+	padding-right: 2em;
+}
+
+
+ul li{
+	font-family: 'BrandonText-Black', sans-serif;
+	letter-spacing: .1em;
+	font-size: 1.7em;
+	float: right;
+	padding-right: 1.5em;
+}
+
+div.video_placeholder {
+	margin-top: -.5em;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin-top: ;
+}
+
+.videoWrapper object, .videoWrapper embed, .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img.WhatsYourOverlap {
+	margin-top: -.3em;
+	margin-bottom: -.35em;
+	width: 100%;
+}
+
+div.story_list{
+	margin-top: -.5em;
+}
+
+img.Story_2, img.Story_3 {
+	margin-top: -.5em;
+}
+
+a {
+	color: black;
+}
+
+img.dotted_bar {
+	width: 100%;
+
+}
+
+/* FULL STORY --------------*/
+
+.full_story{
+	position: relative;
+	margin: 0 auto;
+	width: 60em;
+}
+
+p.story {
+	font-family: 'ACaslonPro-Regular', serif;
+	font-size: 1.5em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+/* ARCHIVE --------------*/
+
+.archive_container {
+	margin-top: -1.1em;
+}
+
+/* STAGGER STORIES --------------*/
+
+
+.block {
+	clear: both;
+	background-color: black;
+	width: 100%;
+	padding-top: .5em;
+}
+
+.Story_1 {
+	margin-top: .2em;
+	float:left;
+}
+
+.Story_2 {
+	float: right;
+}
+
+.Story_3 {
+	float: left;
+}
+
+.storyheading {
+	font-family: 'ACaslonPro-Italic';
+	font-size: 2em;
+	position: absolute;
+	margin: 0 auto;
+}
+
+.story_head {
+	font-family: 'BrandonText-Black';
+	font-size: 2em;
+	padding-top: 2.5em;
+}
+
+em.italic {
+	font-family: 'ACaslonPro-Italic';
+}
+
+.upvote_h3 {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1.1em;
+	width: 8em;
+	float: left;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.upvote {
+	padding-bottom: 6em;
+	float: right;
+	width: 270px;
+}
+
+.upvote_button {
+		float: left;
+		width: 60px;
+}
+
+#upvote_appreciate_button, #upvote_relate_button {
+	padding-right: 1em;
+}
+
+.appreciate {
+	padding-bottom: 5em;
+}
+
+#appreciate_count, #relate_count {
+	font-size: 1.2em;
+}
+
+.relate_circle, .appreciate_circle {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #D0D0D0;
+	float: left;
+	padding-left: .8em;
+	padding-right: 1.2em;
+	padding-top: .6em;
+}
+
+/* FLOAT RIGHT QUOTES --------------*/
+
+.quote_right {
+	float: right;
+	background-color: black;
+	color: white;
+	width: 50%;
+	font-family: 'BrandonText-Regular', sans-serif;
+	padding-top: 10%;
+}
+
+.quote_floatright {
+	width: 17em;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 7em;
+	height: 16em;
+	font-size: 2em;
+}
+
+.quote_floatright:before {
+	font-family: 'BrandonText-MediumItalic', sans-serif;
+	content: "\201C";
+	font-size: 6em;
+	margin-left: -.45em;
+	line-height: 0em;
+}
+
+.quote_floatright:after {
+	font-family: 'BrandonText-MediumItalic', sans-serif;
+	content: "\201D";
+	font-size: 6em;
+	margin-left: 2.5em;
+	line-height: 1em;
+}
+
+.float_right_quote {
+	font-family: 'ACaslonPro-Italic';
+	font-style: italic;
+	width: 17em;
+	position: relative;
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+/* FLOAT LEFT QUOTES --------------*/
+
+.quote_left {
+	float: left;
+	background-color: black;
+	color: white;
+	font-family: 'BrandonText-Regular', sans-serif;
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 17%;
+}
+
+.quote_floatleft {
+	position: relative;
+	margin: 0 auto;
+	width: 17em;
+	font-size: 2em;
+}
+
+.quote_floatleft:before {
+	font-family: 'BrandonText-MediumItalic', sans-serif;
+	content: "\201C";
+	font-size: 6em;
+	margin-left: -.45em;
+	line-height: 0em;
+}
+
+.quote_floatleft:after {
+	font-family: 'BrandonText-MediumItalic', sans-serif;
+	content: "\201D";
+	font-size: 6em;
+	float: right;
+	line-height: 1.5em;
+}
+
+.float_left_quote {
+	font-family: 'ACaslonPro-Italic', serif;
+	width: 17em;
+	position: relative;
+	margin: 0 auto;
+	font-size: 2em;
+	line-height: 0;
+	padding-top: 2em;
+	font-style: italic;
+}
+
+.story_list {
+	background-color: black;
+}
+
+/* WIDE STORY BLOCK --------------*/
+
+.quote_center {
+	color: white;
+	font-family: 'BrandonText-Regular', sans-serif;
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 2em;
+	padding-top: 18em;
+	padding-bottom: 18em;
+}
+
+.centered_quote {
+	position: relative;
+	z-index: 9999;
+	background-color: black;
+	margin-top: 0em;
+}
+
+.quote_center:before {
+	font-family: 'BrandonText-MediumItalic', sans-serif;
+	content: "\201C";
+	font-size: 6em;
+	margin-left: -.45em;
+	line-height: 0em;
+	color: #67fc94;
+}
+
+.centered_quote:after {
+	font-family: 'BrandonText-MediumItalic', sans-serif;
+	content: "\201D";
+	font-size: 6em;
+	float: right;
+	line-height: 1.5em;
+	color: #67fc94;
+}
+
+.block_centered {
+	clear: both;
+	width: 100%;
+}
+
+.centered_quote_h3 {
+	font-family: 'ACaslonPro-Italic', serif;
+		font-style: italic;
+	position: relative;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 0;
+	padding-top: 2em;
+
+}
+
+/* SHARE --------------*/
+
+.container_share {
+	background-color: black;
+}
+
+.share_img {
+	margin-top: -.5em;
+
+}
+
+.share_page {
+	background-color: black;
+	width: 61em;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 5em;
+	padding-bottom: 15em;
+}
+
+.share_info {
+	color: white;
+	font-family: 'BrandonText-Bold', sans-serif;
+	font-size: 1.7em;
+	padding-bottom: 3em;
+	width: 37em;
+}
+
+a.prompts {
+	color: #67fc94;
+	font-family: 'BrandonText-BoldItalic', sans-serif;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 3em;
+	width: 40em;
+}
+
+.your_story {
+	width: 60em;
+	padding-bottom: 70em;
+	padding-top: 1em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+
+}
+
+/* SUBSCRIBE FOOTER --------------*/
+
+div.subscribe_box {
+	background-color: black;
+	margin-top: -.5em;
+	width: 100%;
+	height: 40em;
+}
+
+h1.sharelearnrelate {
+	color:white;
+	font-family: 'BrandonText-Bold', sans-serif;
+	letter-spacing: .1em;
+	margin: 0 auto;
+	width: 14em;
+	padding-top: 5.5em;
+	font-size: 2.3em;
+}
+
+h2.sharelearnrelate {
+	font-family: 'ACaslonPro-Italic';
+	width: 11em;
+	letter-spacing: .03em;	
+	margin: 0 auto;
+	padding-top: 1.5em;
+	font-size: 1.7em;
+	color: grey;
+}
+
+
+input.subscribe {
+	margin-top: 0;
+	display: block;
+	padding: 0;
+	float: right;
+	width: 75%;
+	height: 2em;
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+}
+
+div.greenline {
+	width: 100%;
+	height: 1.5em;
+	background-color: #67fc94;
+}
+
+button.subscribe {
+	float: left;
+	width: 23%;
+	outline:0;
+	border: 0;
+	background: blue;
+	padding: 0;
+	margin: 0;
+	display: block;
+	overflow: hidden;
+	background-color: 
+}
+
+
+/* 24" ------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:1619px) and (max-width:2000px) {
+
+.main_nav {
+	margin-top: -5.5em;
+}
+
+ul li {
+	font-size: 1.5em;
+}
+
+
+}
+
+/* FLOAT RIGHT QUOTES 24" --------------*/
+
+.quote_right {
+	padding-top: 8%;
+}
+
+.quote_floatright {
+	font-size: 1.5em;
+}
+
+.float_right_quote {
+	width: 16em;
+	font-size: 1.6em;
+}
+
+
+/* FLOAT LEFT QUOTES 24" --------------*/
+
+.quote_left {
+	padding-top: 18%;
+}
+
+.quote_floatleft {
+	font-size: 1.5em;
+}
+
+.float_left_quote {
+	width: 16em;
+	font-size: 1.6em;
+}
+
+/* WIDE STORY BLOCK 24" --------------*/
+
+.quote_center {
+	font-size: 1.5em;
+	padding-top: 14em;
+	padding-bottom: 14em;
+}
+
+
+/* SHARE 24" --------------*/
+
+.share_page {
+	width: 50em;
+}
+
+.share_info {
+	font-size: 1.5em;
+	padding-bottom: 3em;
+	width: 35em;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 2.5em;
+	width: 35em;
+}
+
+.your_story {
+	width: 50em;
+	padding-bottom: 65em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+}
+
+/* 1620-1400px ------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:1400px) and (max-width:1620px) {
+
+.main_nav {
+	margin-top: -5em;
+}
+
+ul li {
+	font-size: 1.3em;
+}
+
+/* FULL STORY 1620-1400px--------------*/
+
+.full_story{
+	width: 50em;
+}
+
+/* FLOAT RIGHT QUOTES 1620-1400px--------------*/
+
+.quote_floatright {
+	font-size: 1.3em;
+}
+
+.float_right_quote {
+	width: 14em;
+	font-size: 1.5em;
+}
+
+
+/* FLOAT LEFT QUOTES 1620-1400px--------------*/
+
+.quote_left {
+	padding-top: 18%;
+}
+
+.quote_floatleft {
+	font-size: 1.3em;
+}
+
+.float_left_quote {
+	width: 15em;
+	font-size: 1.5em;
+}
+
+/* WIDE STORY BLOCK 1620-1400px --------------*/
+
+.quote_center {
+	font-size: 1.5em;
+	padding-top: 13em;
+	padding-bottom: 13em;
+}
+
+
+/* SHARE 1620-1400px--------------*/
+
+.share_page {
+	width: 50em;
+}
+
+.share_info {
+	font-size: 1.5em;
+	padding-bottom: 3em;
+	width: 35em;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 2.5em;
+	width: 35em;
+}
+
+.your_story {
+	width: 50em;
+	padding-bottom: 65em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+}
+
+}
+/* 1399-1140px ------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:1140px) and (max-width:1399px) {
+
+.main_nav {
+	margin-top: -4.5em;
+}
+
+ul li {
+	font-size: 1.2em;
+}
+
+/* FULL STORY 1399-1140px--------------*/
+
+.full_story{
+	position: relative;
+	margin: 0 auto;
+	width: 50em;
+	line-height: 1.9em;
+}
+
+p.story {
+	font-family: 'ACaslonPro-Regular', serif;
+	font-size: 1.5em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+/* FLOAT RIGHT QUOTES 1399-1140px--------------*/
+
+.quote_floatright {
+	font-size: 1.2em;
+}
+
+.float_right_quote {
+	width: 15.5em;
+	font-size: 1.3em;
+}
+
+
+/* FLOAT LEFT QUOTES 1399-1140px--------------*/
+
+.quote_left {
+	padding-top: 18%;
+}
+
+.quote_floatleft {
+	font-size: 1.2em;
+}
+
+.float_left_quote {
+	width: 16em;
+	font-size: 1.3em;
+}
+
+/* WIDE STORY BLOCK 1399-1140px--------------*/
+
+.quote_center {
+	font-size: 1.2em;
+	padding-top: 12em;
+	padding-bottom: 12em;
+}
+
+/* SHARE 1399-1140px--------------*/
+
+.share_page {
+	width: 40em;
+}
+
+.share_info {
+	font-size: 1.3em;
+	padding-bottom: 3em;
+	width: 36em;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 2.5em;
+	width: 30em;
+}
+
+.your_story {
+	width: 40em;
+	padding-bottom: 50em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+}
+
+}
+
+/* 1239-990px ------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:990px) and (max-width:1239px) {
+
+.main_nav {
+	margin-top: -4em;
+}
+
+ul li {
+	font-size: 1.05em;
+}
+
+/* FULL STORY 1239-990px--------------*/
+
+.full_story{
+	width: 40em;
+}
+
+
+/* FLOAT RIGHT QUOTES 1239-990px--------------*/
+
+.quote_right {
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-left: 2em;
+}
+
+.quote_floatright {
+	font-size: 1.2em;
+}
+
+.float_right_quote {
+	width: 15.5em;
+	font-size: 1.3em;
+}
+
+
+/* FLOAT LEFT QUOTES 1239-990px--------------*/
+
+.quote_left {
+	padding-top: 16%;
+}
+
+.quote_floatleft {
+	font-size: 1.2em;
+}
+
+.float_left_quote {
+	width: 16em;
+	font-size: 1.3em;
+}
+
+/* WIDE STORY BLOCK 1239-990px--------------*/
+
+.quote_center {
+	font-size: 1.2em;
+	padding-top: 11em;
+	padding-bottom: 11em;
+}
+
+/* SHARE 1239-990px--------------*/
+
+.share_page {
+	width: 40em;
+	padding-bottom: 10em;
+}
+
+.share_info {
+	font-size: 1.2em;
+	padding-bottom: 3em;
+	width: 36em;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 2.5em;
+	width: 30em;
+}
+
+.your_story {
+	width: 40em;
+	padding-bottom: 50em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+}
+
+/* SUBSCRIBE FOOTER 1239-990px--------------*/
+
+div.subscribe_box {
+	height: 30em;
+}
+
+h1.sharelearnrelate {
+	padding-top: 4em;
+	font-size: 2em;
+}
+
+h2.sharelearnrelate {
+	font-size: 1.6em;
+}
+
+form.subscribe {
+	width: 20em;
+	margin: 0 auto;
+}
+
+input.subscribe {
+	margin-top: 3em;
+}
+
+}
+
+/* 989-900 px ------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:900px) and (max-width:989px) {
+
+.main_nav {
+	margin-top: -3.55em;
+}
+
+ul li {
+	font-size: .9em;
+}
+
+/* FULL STORY 989-900 px--------------*/
+
+.full_story{
+	width: 30em;
+}
+
+
+/* FLOAT RIGHT QUOTES 989-900 px--------------*/
+
+.quote_right {
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-left: 2em;
+}
+
+.quote_floatright {
+	font-size: 1em;
+}
+
+.float_right_quote {
+	width: 14em;
+	font-size: 1.2em;
+}
+
+
+/* FLOAT LEFT QUOTES 989-900 px--------------*/
+
+.quote_floatleft {
+	font-size: 1em;
+}
+
+.quote_left {
+	padding-top: 15%;
+}
+
+.float_left_quote {
+	width: 14em;
+	font-size: 1.2em;
+}
+
+/* WIDE STORY BLOCK 989-900 px--------------*/
+
+.quote_center {
+	font-size: 1em;
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+/* SHARE 989-900 px--------------*/
+
+.share_page {
+	width: 36em;
+	padding-bottom: 10em;
+}
+
+.share_info {
+	font-size: 1.2em;
+	padding-bottom: 3em;
+	width: 31.5em;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 2em;
+	width: 22em;
+}
+
+.your_story {
+	width: 35em;
+	padding-bottom: 40em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+}
+
+/* SUBSCRIBE FOOTER 989-900 px--------------*/
+
+div.subscribe_box {
+	height: 25em;
+}
+
+h1.sharelearnrelate {
+	padding-top: 3em;
+	font-size: 2em;
+}
+
+h2.sharelearnrelate {
+	font-size: 1.6em;
+}
+
+form.subscribe {
+	width: 23em;
+	margin: 0 auto;
+}
+
+input.subscribe {
+	margin-top: 3em;
+	width: 20em;
+}
+
+}
+
+
+/* 898-840px ------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:100px) and (max-width:898px) {
+
+.main_nav {
+	margin-top: -3.5em;
+}
+
+ul li {
+	font-size: .8em;
+}
+
+/* FULL STORY 898-840px --------------*/
+
+.full_story{
+	width: 30em;
+}
+
+p.story {
+	font-family: 'ACaslonPro-Regular', serif;
+	font-size: 1.3em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+/* FLOAT RIGHT QUOTES 898-840px --------------*/
+
+.quote_right {
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-left: 2em;
+}
+
+.quote_floatright {
+	font-size: .9em;
+}
+
+.float_right_quote {
+	width: 13.5em;
+	font-size: 1.1em;
+}
+
+.quote_floatright:before {
+	font-size: 5em;
+	margin-left: -.45em;
+}
+
+.quote_floatright:after {
+	font-size: 5em;
+}
+
+
+
+/* FLOAT LEFT QUOTES 898-840px --------------*/
+
+.quote_floatleft {
+	font-size: .9em;
+}
+
+.quote_left {
+	padding-top: 15%;
+}
+
+.float_left_quote {
+	width: 14em;
+	font-size: 1.1em;
+}
+
+.quote_floatleft:before {
+	font-size: 5em;
+	margin-left: -.45em;
+}
+
+.quote_floatleft:after {
+	font-size: 5em;
+}
+
+
+/* WIDE STORY BLOCK 898-840px --------------*/
+
+.quote_center {
+	font-size: 1em;
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+/* SHARE 898-840px --------------*/
+
+.share_page {
+	width: 36em;
+	padding-bottom: 10em;
+}
+
+.share_info {
+	font-size: 1em;
+	padding-bottom: 2em;
+	width: 31.5em;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 1.7em;
+	width: 22em;
+}
+
+.your_story {
+	width: 35em;
+	padding-bottom: 40em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+}
+
+/* SUBSCRIBE FOOTER 898-840px --------------*/
+
+.main_nav {
+	display: none;
+}
+
+a.icon {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+div.dropdown_nav {
+	display: block;
+	top: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	z-index: 999999;
+}
+
+ul li {
+	clear: both;
+}
+
+#dropdown_list {
+	display: none;
+	clear: both;
+}
+
+div.subscribe_box {
+	height: 25em;
+}
+
+h1.sharelearnrelate {
+	padding-top: 2.5em;
+	font-size: 1.5em;
+}
+
+h2.sharelearnrelate {
+	font-size: 1.2em;
+}
+
+form.subscribe {
+	width: 20em;
+	margin: 0 auto;
+}
+
+input.subscribe {
+	margin-top: 3em;
+	width: 19em;
+}
+
+.upvote_h3 {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	width: 8em;
+	float: left;
+	padding-bottom: 1em;
+	padding-top: .5em;
+}
+
+.upvote {
+	padding-bottom: 6em;
+	float: right;
+	width: 270px;
+}
+
+.upvote_button {
+		float: left;
+		width: 50px;
+}
+
+#upvote_appreciate_button, #upvote_relate_button {
+	padding-right: 1em;
+}
+
+.appreciate {
+	padding-bottom: 5em;
+}
+
+#appreciate_count, #relate_count {
+	font-size: 1em;
+}
+
+.relate_circle, .appreciate_circle {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #D0D0D0;
+	float: left;
+	padding-left: .7em;
+	padding-right: 1.2em;
+	padding-top: .6em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
