@@ -858,6 +858,8 @@ input.subscribe {
 	/*margin-top: 3em;*/
 }
 
+}
+
 /* 989-900 px ------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width:900px) and (max-width:989px) {
@@ -1188,7 +1190,7 @@ input.subscribe {
 }
 
 
-
+}
 
 
 
