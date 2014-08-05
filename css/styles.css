@@ -402,6 +402,7 @@ h1.sharelearnrelate {
 	width: 14em;
 	padding-top: 5.5em;
 	font-size: 2.3em;
+	text-align: center;
 }
 
 h2.sharelearnrelate {
@@ -412,6 +413,7 @@ h2.sharelearnrelate {
 	padding-top: 1.5em;
 	font-size: 1.7em;
 	color: grey;
+	text-align: center;
 }
 
 
@@ -419,7 +421,6 @@ input.subscribe {
 	display: block;
 	margin-top: 3em;
 	margin-right: 0;
-	margin-left: 62em;
 	padding: 0;
 	float: left;
 	border: 0;
@@ -437,7 +438,6 @@ div.greenline {
 
 button.subscribe {
 	float: left;
-	margin-right: 40em;
 	font-family: 'BrandonText-Medium', sans-serif;
 	font-size: 1em;
 	height: 2.5em;
@@ -449,6 +449,12 @@ button.subscribe {
 	display: block;
 	overflow: hidden;
 	background-color: #67fc94;
+}
+
+.center_subscribe {
+	width: 100%;
+	position: relative;
+	margin: 0auto;
 }
 
 
