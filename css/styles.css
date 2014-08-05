@@ -717,7 +717,7 @@ p.story {
 }
 
 .share_info {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	padding-bottom: 3em;
 	width: 36em;
 }
@@ -808,12 +808,12 @@ ul li {
 /* SHARE 1239-990px--------------*/
 
 .share_page {
-	width: 40em;
+	width: 42em;
 	padding-bottom: 10em;
 }
 
 .share_info {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding-bottom: 3em;
 	width: 36em;
 }
@@ -837,6 +837,7 @@ ul li {
 .submit {
 	float: right;
 	margin-top: 3em;
+	margin-right: 3em;
 }
 
 /* SUBSCRIBE FOOTER 1239-990px--------------*/
@@ -928,9 +929,9 @@ ul li {
 }
 
 .share_info {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding-bottom: 3em;
-	width: 31.5em;
+	width: 29em;
 }
 
 .name, .age, .location, .your_story {
@@ -1068,12 +1069,12 @@ p.story {
 /* SHARE 898-730px --------------*/
 
 .share_page {
-	width: 32em;
+	width: 34em;
 	padding-bottom: 10em;
 }
 
 .share_info {
-	font-size: 1em;
+	font-size: 1.2em;
 	padding-bottom: 2em;
 	width: 30em;
 }
@@ -1130,8 +1131,6 @@ ul li {
 #dropdown_list {
 	display: none;
 	clear: both;
-	background-color: black;
-	color: white;
 	overflow: hidden;
 }
 
@@ -1157,7 +1156,7 @@ form.subscribe {
 
 input.subscribe {
 	margin-top: 3em;
-	width: 13em;
+	width: 16em;
 }
 
 .upvote_h3 {
@@ -1207,7 +1206,7 @@ input.subscribe {
 }
 
 
-/* 729-840px ------------------------------------------------------------------------------------------*/
+/* 729-100px ------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width:100px) and (max-width:729px) {
 
@@ -1219,7 +1218,7 @@ ul li {
 	font-size: .8em;
 }
 
-/* FULL STORY 898-840px --------------*/
+/* FULL STORY 729-100px --------------*/
 
 .full_story{
 	width: 30em;
@@ -1227,12 +1226,12 @@ ul li {
 
 p.story {
 	font-family: 'ACaslonPro-Regular', serif;
-	font-size: 1.3em;
+	font-size: 2em;
 	padding-top: 2em;
 	padding-bottom: 5em;
 }
 
-/* FLOAT RIGHT QUOTES 898-840px --------------*/
+/* FLOAT RIGHT QUOTES 729-100px --------------*/
 
 .quote_right {
 	padding-top: 4%;
@@ -1260,7 +1259,7 @@ p.story {
 
 
 
-/* FLOAT LEFT QUOTES 898-840px --------------*/
+/* FLOAT LEFT QUOTES 729-100px --------------*/
 
 .quote_floatleft {
 	font-size: .9em;
@@ -1285,7 +1284,7 @@ p.story {
 }
 
 
-/* WIDE STORY BLOCK 898-840px --------------*/
+/* WIDE STORY BLOCK 729-100px --------------*/
 
 .quote_center {
 	font-size: 1em;
@@ -1293,7 +1292,7 @@ p.story {
 	padding-bottom: 10em;
 }
 
-/* SHARE 898-840px --------------*/
+/* SHARE 729-100px --------------*/
 
 .share_page {
 	width: 36em;
@@ -1327,7 +1326,7 @@ p.story {
 	margin-top: 3em;
 }
 
-/* SUBSCRIBE FOOTER 898-840px --------------*/
+/* SUBSCRIBE FOOTER 729-100px --------------*/
 
 .main_nav {
 	display: none;
