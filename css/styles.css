@@ -8,6 +8,11 @@
 @font-face { font-family: ACasolonPro-Regular; src: url('../font/ACasolonPro-Regular.otf'); }
 @font-face { font-family: ACasolonPro-Italic; src: url('../font/ACasolonPro-Italic.otf'); }
 
+div.subscribe {
+	width: 400px;
+	margin: 0 auto;
+}
+
 .dropdown_nav {
 	display: none;
 }
@@ -424,7 +429,7 @@ input.subscribe {
 	padding: 0;
 	float: left;
 	border: 0;
-	width: 15%;
+	width: 70%;
 	height: 2.5em;
 	font-family: 'BrandonText-Regular', sans-serif;
 	font-size: 1em;
@@ -441,7 +446,7 @@ button.subscribe {
 	font-family: 'BrandonText-Medium', sans-serif;
 	font-size: 1em;
 	height: 2.5em;
-	width: 6%;
+	width: 30%;
 	outline:0;
 	border: 0;
 	background: blue;
@@ -549,7 +554,7 @@ ul li {
 /* SUBSCRIBE FOOTER 24" --------------*/
 
 input.subscribe {
-	margin-left: 47em;
+	/*margin-left: 47em;*/
 	padding: 0;
 }
 
@@ -849,15 +854,8 @@ h2.sharelearnrelate {
 	font-size: 1.6em;
 }
 
-form.subscribe {
-	width: 20em;
-	margin: 0 auto;
-}
-
 input.subscribe {
-	margin-top: 3em;
-}
-
+	/*margin-top: 3em;*/
 }
 
 /* 989-900 px ------------------------------------------------------------------------------------------*/
@@ -969,14 +967,10 @@ h2.sharelearnrelate {
 	font-size: 1.6em;
 }
 
-form.subscribe {
-	width: 23em;
-	margin: 0 auto;
-}
 
 input.subscribe {
 	margin-top: 3em;
-	width: 20em;
+	/*width: 20em;*/
 }
 
 }
@@ -1145,14 +1139,9 @@ h2.sharelearnrelate {
 	font-size: 1.2em;
 }
 
-form.subscribe {
-	width: 20em;
-	margin: 0 auto;
-}
 
 input.subscribe {
 	margin-top: 3em;
-	width: 19em;
 }
 
 .upvote_h3 {
@@ -1199,7 +1188,6 @@ input.subscribe {
 }
 
 
-}
 
 
 
