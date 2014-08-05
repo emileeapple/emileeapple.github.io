@@ -983,24 +983,57 @@ input.subscribe {
 
 @media screen and (min-width:730px) and (max-width:898px) {
 
-.main_nav {
-	margin-top: -3.5em;
-}
-
 ul li {
 	font-size: 1em;
 	line-height: 2.3em;
+	color: white;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+.main_nav {
+	display: none;
+}
+
+a.icon {
+	font-size: 3em;
+	font-family: sans-serif;
+	padding-right: .7em;
+	line-height: 1.8em;
+}
+
+div.dropdown_nav {
+	display: block;
+	top: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	z-index: 999999;
+	width: 16em;
+	margin-top: .1em;
+}
+
+ul li {
+	clear: both;
+}
+
+#dropdown_list {
+	display: none;
+	clear: both;
+	overflow: hidden;
+	background: white;
 }
 
 /* FULL STORY 898-730px --------------*/
 
 .full_story{
-	width: 30em;
+	width: 35em;
 }
 
 p.story {
 	font-family: 'ACaslonPro-Regular', serif;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	padding-top: 2em;
 	padding-bottom: 5em;
 }
@@ -1103,36 +1136,6 @@ p.story {
 
 /* SUBSCRIBE FOOTER 898-730px --------------*/
 
-.main_nav {
-	display: none;
-}
-
-a.icon {
-	font-size: 2em;
-	font-family: sans-serif;
-	padding-right: .7em;
-	padding-top: 3em;
-}
-
-div.dropdown_nav {
-	display: block;
-	top: 0;
-	right: 0;
-	width: 100%;
-	text-align: right;
-	position: absolute;
-	z-index: 999999;
-}
-
-ul li {
-	clear: both;
-}
-
-#dropdown_list {
-	display: none;
-	clear: both;
-	overflow: hidden;
-}
 
 div.subscribe_box {
 	height: 25em;
@@ -1210,31 +1213,51 @@ input.subscribe {
 
 @media screen and (min-width:100px) and (max-width:729px) {
 
+ul li {
+	font-size: 1em;
+	line-height: 2.3em;
+	color: white;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
 .main_nav {
-	margin-top: -3.5em;
+	display: none;
+}
+
+a.icon {
+	font-size: 3em;
+	font-family: sans-serif;
+	padding-right: .7em;
+	line-height: 1.6em;
+}
+
+div.dropdown_nav {
+	display: block;
+	top: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	z-index: 999999;
+	width: 16em;
+	margin-top: .1em;
 }
 
 ul li {
-	font-size: .8em;
+	clear: both;
 }
 
-/* FULL STORY 729-100px --------------*/
-
-.full_story{
-	width: 30em;
+#dropdown_list {
+	display: none;
+	clear: both;
+	overflow: hidden;
+	background: white;
 }
-
-p.story {
-	font-family: 'ACaslonPro-Regular', serif;
-	font-size: 2.1em;
-	padding-top: 2em;
-	padding-bottom: 5em;
-}
-
 /* FLOAT RIGHT QUOTES 729-100px --------------*/
 
 .quote_right {
-	padding-top: 4%;
+	padding-top: 2%;
 	padding-bottom: 2%;
 	padding-left: 2em;
 }
@@ -1288,8 +1311,8 @@ p.story {
 
 .quote_center {
 	font-size: 1em;
-	padding-top: 10em;
-	padding-bottom: 10em;
+	padding-top: 8em;
+	padding-bottom: 8em;
 }
 
 /* SHARE 729-100px --------------*/
@@ -1328,38 +1351,9 @@ p.story {
 
 /* SUBSCRIBE FOOTER 729-100px --------------*/
 
-.main_nav {
-	display: none;
-}
-
-a.icon {
-	font-size: 2em;
-	font-family: sans-serif;
-	padding-right: .7em;
-	padding-top: 3em;
-}
-
-div.dropdown_nav {
-	display: block;
-	top: 0;
-	right: 0;
-	width: 100%;
-	text-align: right;
-	position: absolute;
-	z-index: 999999;
-}
-
-ul li {
-	clear: both;
-}
-
-#dropdown_list {
-	display: none;
-	clear: both;
-}
 
 div.subscribe_box {
-	height: 25em;
+	height: 21.5em;
 }
 
 h1.sharelearnrelate {
