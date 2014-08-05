@@ -46,7 +46,7 @@ div.video_placeholder {
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
-	margin-top: ;
+	margin-top: -.5em;
 }
 
 .videoWrapper object, .videoWrapper embed, .videoWrapper iframe {
@@ -978,9 +978,233 @@ input.subscribe {
 }
 
 
-/* 898-840px ------------------------------------------------------------------------------------------*/
+/* 898-730px ------------------------------------------------------------------------------------------*/
 
-@media screen and (min-width:100px) and (max-width:898px) {
+@media screen and (min-width:730px) and (max-width:898px) {
+
+.main_nav {
+	margin-top: -3.5em;
+}
+
+ul li {
+	font-size: 1em;
+	line-height: 2.3em;
+}
+
+/* FULL STORY 898-730px --------------*/
+
+.full_story{
+	width: 30em;
+}
+
+p.story {
+	font-family: 'ACaslonPro-Regular', serif;
+	font-size: 1.3em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+/* FLOAT RIGHT QUOTES 898-730px--------------*/
+
+.quote_right {
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-left: 2em;
+}
+
+.quote_floatright {
+	font-size: .9em;
+}
+
+.float_right_quote {
+	width: 13.5em;
+	font-size: 1.1em;
+}
+
+.quote_floatright:before {
+	font-size: 5em;
+	margin-left: -.45em;
+}
+
+.quote_floatright:after {
+	font-size: 5em;
+}
+
+
+
+/* FLOAT LEFT QUOTES 898-730px --------------*/
+
+.quote_floatleft {
+	font-size: .9em;
+}
+
+.quote_left {
+	padding-top: 15%;
+}
+
+.float_left_quote {
+	width: 14em;
+	font-size: 1.1em;
+}
+
+.quote_floatleft:before {
+	font-size: 5em;
+	margin-left: -.45em;
+}
+
+.quote_floatleft:after {
+	font-size: 5em;
+}
+
+
+/* WIDE STORY BLOCK 898-730px --------------*/
+
+.quote_center {
+	font-size: 1em;
+	padding-top: 8em;
+	padding-bottom: 8em;
+}
+
+/* SHARE 898-730px --------------*/
+
+.share_page {
+	width: 32em;
+	padding-bottom: 10em;
+}
+
+.share_info {
+	font-size: 1em;
+	padding-bottom: 2em;
+	width: 30em;
+}
+
+.name, .age, .location, .your_story {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.name, .age, .location {
+	height: 1.7em;
+	width: 20em;
+}
+
+.your_story {
+	width: 30em;
+	padding-bottom: 40em;
+}
+
+.submit {
+	float: right;
+	margin-top: 3em;
+	margin-right: 4em;
+}
+
+/* SUBSCRIBE FOOTER 898-730px --------------*/
+
+.main_nav {
+	display: none;
+}
+
+a.icon {
+	font-size: 2em;
+	font-family: sans-serif;
+	padding-right: .7em;
+	padding-top: 3em;
+}
+
+div.dropdown_nav {
+	display: block;
+	top: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	z-index: 999999;
+}
+
+ul li {
+	clear: both;
+}
+
+#dropdown_list {
+	display: none;
+	clear: both;
+}
+
+div.subscribe_box {
+	height: 25em;
+}
+
+h1.sharelearnrelate {
+	padding-top: 2.5em;
+	font-size: 1.5em;
+}
+
+h2.sharelearnrelate {
+	font-size: 1.2em;
+}
+
+form.subscribe {
+	width: 20em;
+	margin: 0 auto;
+}
+
+input.subscribe {
+	margin-top: 3em;
+	width: 19em;
+}
+
+.upvote_h3 {
+	font-family: 'BrandonText-Regular', sans-serif;
+	font-size: 1em;
+	width: 8em;
+	float: left;
+	padding-bottom: 1em;
+	padding-top: .5em;
+}
+
+.upvote {
+	padding-bottom: 6em;
+	float: right;
+	width: 270px;
+}
+
+.upvote_button {
+		float: left;
+		width: 50px;
+}
+
+#upvote_appreciate_button, #upvote_relate_button {
+	padding-right: 1em;
+}
+
+.appreciate {
+	padding-bottom: 5em;
+}
+
+#appreciate_count, #relate_count {
+	font-size: 1em;
+}
+
+.relate_circle, .appreciate_circle {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #D0D0D0;
+	float: left;
+	padding-left: .7em;
+	padding-right: 1.2em;
+	padding-top: .6em;
+}
+
+
+}
+
+
+/* 729-840px ------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:100px) and (max-width:729px) {
 
 .main_nav {
 	margin-top: -3.5em;
@@ -1107,6 +1331,8 @@ p.story {
 a.icon {
 	font-size: 2em;
 	font-family: sans-serif;
+	padding-right: .7em;
+	padding-top: 3em;
 }
 
 div.dropdown_nav {
@@ -1191,8 +1417,6 @@ input.subscribe {
 
 
 }
-
-
 
 
 
