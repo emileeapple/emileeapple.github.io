@@ -416,12 +416,15 @@ h2.sharelearnrelate {
 
 
 input.subscribe {
-	margin-top: 0;
 	display: block;
+	margin-top: 3em;
+	margin-right: 0;
+	margin-left: 62em;
 	padding: 0;
-	float: right;
-	width: 75%;
-	height: 2em;
+	float: left;
+	border: 0;
+	width: 15%;
+	height: 2.5em;
 	font-family: 'BrandonText-Regular', sans-serif;
 	font-size: 1em;
 }
@@ -434,15 +437,18 @@ div.greenline {
 
 button.subscribe {
 	float: left;
-	width: 23%;
+	margin-right: 40em;
+	font-family: 'BrandonText-Medium', sans-serif;
+	font-size: 1em;
+	height: 2.5em;
+	width: 6%;
 	outline:0;
 	border: 0;
 	background: blue;
-	padding: 0;
-	margin: 0;
+	margin-top: 3em;
 	display: block;
 	overflow: hidden;
-	background-color: 
+	background-color: #67fc94;
 }
 
 
@@ -533,6 +539,14 @@ ul li {
 	float: right;
 	margin-top: 3em;
 }
+
+/* SUBSCRIBE FOOTER 24" --------------*/
+
+input.subscribe {
+	margin-left: 47em;
+	padding: 0;
+}
+
 
 /* 1620-1400px ------------------------------------------------------------------------------------------*/
 
